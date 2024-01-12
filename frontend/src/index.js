@@ -4,17 +4,26 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from '@auth0/auth0-react';
 import './index.css';
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
+const root = createRoot(document.getElementById('root'));
 
+
+const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+const REACTNAME = process.env.REACT_APP_NAME;
+
+///console.log("credentials env",REACTNAME,domain,clientId)
 root.render(
-  <React.StrictMode>
+     <React.StrictMode>
     <Provider store={store}>
+    <ErrorBoundary>
       <App />
+    </ErrorBoundary>
     </Provider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -16,11 +16,11 @@ const RouterComponent = () => {
     <Suspense fallback={<div>Loading..</div>}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>

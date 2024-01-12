@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "username": "wahid",
+    "email": "wahid@gmail.com",
+    "passwordHash": "$2b$10$ce55mijjAv6wsH6pWBgZKuP.Uhdx1vsY3n8d.LCAVCPDUMzF6tIhG"
+  },
+  {
+    "id": 2,
+    "username": "waqar",
+    "email": "waqar@gmail.com",
+    "passwordHash": "$2b$10$pl.kOIFLvggs/DC31neuBuVZH2CePCNKDwb4UrYO.i61EbIaU8/C."
+  },
+  {
+    "id": 3,
+    "username": "moiz",
+    "email": "moiz@gmail.com",
+    "passwordHash": "$2b$10$dLzymrapAjbjCQEzDtQ3WO7MLatYCasF62OqyIh.kbhW4qAII6jea"
+  },
+  {
+    "id": 4,
+    "username": "Muhammad Waqar",
+    "email": "moiz1@gmail.com",
+    "passwordHash": "$2b$10$aIZEozjNX9b/uBtN7eerd.fDdkANo9faa6VOJBlo91Qtlk/TuHI.q"
+  },
+  {
+    "id": 5,
+    "username": "osama",
+    "email": "osama@gmail.com",
+    "passwordHash": "$2b$10$25lq36kfVQKeM/mBON/X7eQFfv0V3liuAhnQFbzuSW2NAS8NQb4Nu"
+  },
+  {
+    "id": 6,
+    "username": "motashim",
+    "email": "motashim@gmail.com",
+    "passwordHash": "$2b$10$mdgd3c6al/iLuzXGKYtEAeZtH4pNc0VsQkaJwAd3pn5yC/abmKGDS"
+  }
+]
